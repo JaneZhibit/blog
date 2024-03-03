@@ -32,6 +32,7 @@ interests:
   
 # Education to show in About widget
 education:
+
 - course: Математический профиль
   institution: школа 1133
   year: 2018-2019
