@@ -32,16 +32,16 @@ interests:
   
 # Education to show in About widget
 education:
-
-- course: Математический профиль
-  institution: школа 1133
-  year: 2018-2019
-- course: Математико-лингвистический профиль
-  institution: школа 2101
-  year: 2019-2021
-- course: Прикладная информатика
-  institution: РУДН
-  year: 2027
+  courses:
+    - course: Математический профиль
+      institution: школа 1133
+      year: 2018-2019
+    - course: Математико-лингвистический профиль
+      institution: школа 2101
+      year: 2019-2021
+    - course: Прикладная информатика
+      institution: РУДН
+      year: 2027
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
