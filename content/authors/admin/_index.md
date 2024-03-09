@@ -38,7 +38,7 @@ education:
       year: 2018-2019
     - course: Математико-лингвистический профиль
       institution: школа 2101
-      year: 2019-2021
+      year: 2019-2023
     - course: Прикладная информатика
       institution: РУДН
       year: 2027
@@ -56,9 +56,9 @@ skills:
       - name: C & C++
         description: ''
         percent: 50
-        icon: C++
-        icon_pack: fab
-      - name: Exel
+        icon: C
+        icon_pack:
+      - name: Excel
         description: ''
         percent: 60
         icon: chart-line
@@ -71,7 +71,7 @@ skills:
         description: ''
         percent: 60
         icon: box
-        icon_pack: fas
+        icon_pack:
       - name: Culinary
         description: ''
         percent: 100

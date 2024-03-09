@@ -62,27 +62,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Волонтерская деятельность
+          company: Мосволонтер
+          company_url: 'https://mosvolonter.ru/'
+          company_logo: org-mv
+          location: Москва, Россия
+          date_start: '2022-06-30'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Помощь в организации мероприятий
+              * Координация людей
+              * Помощь в проведении мероприятий
+        - title: Репетиторство
+          company: Онлайн-платформы
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: org-study
+          location: Москва, Россия
+          date_start: '2022-10-01'
+          date_end: ''
+          description: Помощь школьникам со школьной программой, подготовка к экзаменам по русскому и иностранным языкам и матемамтике.
     design:
       columns: '2'
   - block: accomplishments
@@ -98,33 +98,25 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+        - certificate_url: 
+          date_end: '2022-04-30'
+          date_start: '2022-04-01'
+          description: 'Участие в месячном образовательном Бизес-акселераторе от mos.МШУ'
+          icon: мшу
+          organization: Молодежная школа Уполномоченного по защите прав предпринимателей в городе Москве (MOS.МШУ)
+          organization_url: https://xn--80apaohbc3aw9e.xn--p1ai/regions/moskva/practices/molodeznaia-skola-upolnomocennogo-po-zashhite-prav-predprinimatelei-v-gorode-moskve-mosmsu/
+          title: Бизес-акселератор mos.МШУ
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: удостоверение №АИ68923
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+          date_start: '2022-11-01'
+          description: Получение золотого значка ГТО
+          icon: гто
+          organization: АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ «ДИРЕКЦИЯ СПОРТИВНЫХ И СОЦИАЛЬНЫХ ПРОЕКТОВ»
+          organization_url: 
+          title: Золотой значок ГТО
+          url:
+       
     design:
       columns: '2'
   - block: collection
