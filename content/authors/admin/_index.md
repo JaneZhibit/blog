@@ -56,8 +56,8 @@ skills:
       - name: C & C++
         description: ''
         percent: 50
-        icon: C
-        icon_pack:
+        icon: c
+        icon_pack: fab
       - name: Excel
         description: ''
         percent: 60
