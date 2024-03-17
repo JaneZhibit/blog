@@ -22,7 +22,7 @@ organizations:
     url: https://www.rudn.ru/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Я люблю узнавать новое, всегда открыта к новым предложениям и вижу везде много всего прекрасного.
 
 # Interests to show in About widget
 interests:
@@ -57,7 +57,7 @@ skills:
         description: ''
         percent: 50
         icon: c
-        icon_pack: fab
+        icon_pack: dev
       - name: Excel
         description: ''
         percent: 60

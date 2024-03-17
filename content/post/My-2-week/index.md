@@ -1,7 +1,7 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "My 2nd week"
+title: "My 2 Week"
 subtitle: "03.03-10.03"
 summary: "Второй пост, уже о следующей моей неделе, не такой продуктивной, но все равно интересной."
 authors: []

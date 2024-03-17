@@ -102,12 +102,13 @@ sections:
           date_end: '2022-04-30'
           date_start: '2022-04-01'
           description: 'Участие в месячном образовательном Бизес-акселераторе от mos.МШУ'
-          icon: мшу
+          icon: maya
+          icon_pack: div
           organization: Молодежная школа Уполномоченного по защите прав предпринимателей в городе Москве (MOS.МШУ)
           organization_url: https://xn--80apaohbc3aw9e.xn--p1ai/regions/moskva/practices/molodeznaia-skola-upolnomocennogo-po-zashhite-prav-predprinimatelei-v-gorode-moskve-mosmsu/
           title: Бизес-акселератор mos.МШУ
           url: ''
-        - certificate_url: удостоверение №АИ68923
+        - certificate_url:
           date_end: ''
           date_start: '2022-11-01'
           description: Получение золотого значка ГТО
@@ -233,12 +234,13 @@ sections:
       phone: 888 888 88 88
       appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
+        street: Partizanskaya 35
+        city: Moscow
+        region: Central
+        postcode: '13105'
+        country: Russia
+        
+        country_code: RU
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
         - 'Monday 10:00 to 13:00'
@@ -248,10 +250,7 @@ sections:
         latitude: '37.4275'
         longitude: '-122.1697'  
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
+       
         - icon: skype
           icon_pack: fab
           name: Skype Me
