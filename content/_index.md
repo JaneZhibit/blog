@@ -78,7 +78,7 @@ sections:
         - title: Репетиторство
           company: Онлайн-платформы
           company_url: ''
-          company_logo: org-study
+          company_logo: paperclip-solid
           location: Москва, Россия
           date_start: '2022-10-01'
           date_end: ''
