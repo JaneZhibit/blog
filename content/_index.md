@@ -64,8 +64,8 @@ sections:
       items:
         - title: Волонтерская деятельность
           company: Мосволонтер
-          company_url: 'https://mosvolonter.ru/'
-          company_logo:org-mv
+          company_url: 
+          company_logo: mv
           location: Москва, Россия
           date_start: '2022-06-30'
           date_end: ''
@@ -111,7 +111,7 @@ sections:
           date_end: ''
           date_start: '2022-11-01'
           description: Получение золотого значка ГТО
-          icon: гто
+          icon: гто_(1)
           organization: АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ «ДИРЕКЦИЯ СПОРТИВНЫХ И СОЦИАЛЬНЫХ ПРОЕКТОВ»
           organization_url: 
           title: Золотой значок ГТО
