@@ -111,7 +111,7 @@ sections:
           date_end: ''
           date_start: '2022-11-01'
           description: Получение золотого значка ГТО
-          icon: гто
+          icon:гто
           organization: АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ «ДИРЕКЦИЯ СПОРТИВНЫХ И СОЦИАЛЬНЫХ ПРОЕКТОВ»
           organization_url: 
           title: Золотой значок ГТО
