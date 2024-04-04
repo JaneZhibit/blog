@@ -70,7 +70,7 @@ skills:
       - name: Kickboxing
         description: ''
         percent: 60
-        icon: handshake-o
+        icon: handshake
         icon_pack: fas
       - name: Culinary
         description: ''
