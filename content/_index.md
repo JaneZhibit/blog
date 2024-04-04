@@ -102,8 +102,7 @@ sections:
           date_end: '2022-04-30'
           date_start: '2022-04-01'
           description: 'Участие в месячном образовательном Бизес-акселераторе от mos.МШУ'
-          icon: maya
-          icon_pack: div
+          icon: мшу
           organization: Молодежная школа Уполномоченного по защите прав предпринимателей в городе Москве (MOS.МШУ)
           organization_url: https://xn--80apaohbc3aw9e.xn--p1ai/regions/moskva/practices/molodeznaia-skola-upolnomocennogo-po-zashhite-prav-predprinimatelei-v-gorode-moskve-mosmsu/
           title: Бизес-акселератор mos.МШУ
