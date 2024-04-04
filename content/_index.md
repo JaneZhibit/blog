@@ -65,7 +65,7 @@ sections:
         - title: Волонтерская деятельность
           company: Мосволонтер
           company_url: 'https://mosvolonter.ru/'
-          company_logo: org-mv
+          company_logo:org-mv
           location: Москва, Россия
           date_start: '2022-06-30'
           date_end: ''
