@@ -56,7 +56,7 @@ skills:
       - name: C & C++
         description: ''
         percent: 50
-        icon: </>
+        icon: cc
         icon_pack: fas
       - name: Excel
         description: ''
@@ -95,6 +95,35 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/JaneZhibit
+    
+  - icon: doi
+    icon_pack: ai
+    link: https://elibrary.ru/project_user_tools.asp
+    
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?view_op=new_profile&hl=en
+    
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/my-orcid?orcid=0009-0005-1018-2092
+    
+  - icon: mendeley
+    icon_pack: ai
+    link:  https://www.mendeley.com/search/
+   
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/
+    
+  - icon: academia
+    icon_pack: ai
+    link: https://www.academia.edu/
+    
+  - icon: arxiv
+    icon_pack: ai
+    link: https://arxiv.org/user/
+    
   
 
 # Highlight the author in author lists? (true/false)
