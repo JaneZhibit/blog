@@ -1,9 +1,9 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "My-3-week"
+title: "My 3 week"
 subtitle: "08.04 - 14.04"
-summary: "Пост о совмещении учебы с прекрасной вессеней погодой и хорошим настроением"
+summary: "Пост о совмещении учебы с прекрасной весенней погодой и хорошим настроением"
 authors: [Жибицкая Евгения]
 tags: []
 categories: []

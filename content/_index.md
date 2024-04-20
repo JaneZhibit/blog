@@ -228,8 +228,8 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
+      email: evgeniazhibitskaya@gmail.com 
+      phone: +7 967 153 08 20
       appointment_url: 'https://calendly.com'
       address:
         street: Partizanskaya 35
@@ -245,14 +245,14 @@ sections:
         - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+        latitude: 
+        longitude:  
       contact_links:
        
         - icon: skype
           icon_pack: fab
           name: Skype Me
-          link: 'skype:echo123?call'
+          link: 'skype:janecall'
         - icon: video
           icon_pack: fas
           name: Zoom Me

@@ -13,157 +13,87 @@ slides:
   highlight_style: dracula
 ---
 
-# Create slides in Markdown with Hugo Blox Builder
+# Этапы реализации проекта
 
-[Hugo Blox Builder](https://hugoblox.com/) | [Documentation](https://docs.hugoblox.com/content/slides/)
-
----
-
-## Features
-
-- Efficiently write slides in Markdown
-- 3-in-1: Create, Present, and Publish your slides
-- Supports speaker notes
-- Mobile friendly slides
+[Hugo-themes](https://github.com/wowchemy/wowchemy-hugo-themes) |
+[Github](https://github.com/JaneZhibit)
 
 ---
 
-## Controls
+## Размещение на Github pages заготовки для персонального сайта.
 
-- Next: `Right Arrow` or `Space`
-- Previous: `Left Arrow`
-- Start: `Home`
-- Finish: `End`
-- Overview: `Esc`
-- Speaker notes: `S`
-- Fullscreen: `F`
-- Zoom: `Alt + Click`
-- [PDF Export](https://revealjs.com/pdf-export/)
+- Установить необходимое программное обеспечение.
+- Скачать шаблон темы сайта.
+- Разместить его на хостинге git.
+- Установить параметр для URLs сайта.
+- Разместить заготовку сайта на Github pages.
+- Добавить к сайту данные о себе.
 
 ---
 
-## Code Highlighting
+## Добавление данных.
+- Разместить фотографию владельца сайта.
+- Разместить краткое описание владельца сайта (Biography).
+- Добавить информацию об интересах (Interests).
+- Добавить информацию от образовании (Education).
+- Сделать пост по прошедшей неделе.
+- Добавить пост на тему по выбору:
+- Управление версиями. Git.
+- Непрерывная интеграция и непрерывное развертывание (CI/CD).
+---
 
-Inline code: `variable`
+## Добавление  к сайту достижений.
 
-Code block:
-
-```python
-porridge = "blueberry"
-if porridge == "blueberry":
-    print("Eating...")
-```
+- Список достижений.
+- Добавить информацию о навыках (Skills).
+- Добавить информацию об опыте (Experience).
+- Добавить информацию о достижениях (Accomplishments).
+- Сделать пост по прошедшей неделе.
+- Добавить пост на тему по выбору:
+- Легковесные языки разметки.
+- Языки разметки. LaTeX.
+- Язык разметки Markdown.
 
 ---
 
-## Math
+## Добавление к сайту ссылок на научные и библиометрические ресурсы.
 
-In-line math: $x + y = z$
 
-Block math:
+- Зарегистрироваться на соответствующих ресурсах и разместить на них ссылки на сайте:
+* eLibrary : https://elibrary.ru/;
+* Google Scholar : https://scholar.google.com/;
+* ORCID : https://orcid.org/;
+* Mendeley : https://www.mendeley.com/;
+* ResearchGate : https://www.researchgate.net/;
+* Academia.edu : https://www.academia.edu/;
+* arXiv : https://arxiv.org/;
+* github : https://github.com/.
+- Сделать пост по прошедшей неделе.
+- Добавить пост на тему по выбору:
+* Оформление отчёта.
+* Создание презентаций.
+* Работа с библиографией.
+---
 
-$$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$
+##  Добавление к сайту всех остальных элементов.
+
+
+- Сделать записи для персональных проектов.
+- Сделать пост по прошедшей неделе.
+- Добавить пост на тему по выбору.
+- Языки научного программирования.
 
 ---
 
-## Fragments
+##  Размещение двуязычного сайта на Github.
 
-Make content appear incrementally
+- Сделать поддержку английского и русского языков.
+- Разместить элементы сайта на обоих языках.
+- Разместить контент на обоих языках.
+- Сделать пост по прошедшей неделе.
+- Добавить пост на тему по выбору (на двух языках).
 
-```
-{{%/* fragment */%}} One {{%/* /fragment */%}}
-{{%/* fragment */%}} **Two** {{%/* /fragment */%}}
-{{%/* fragment */%}} Three {{%/* /fragment */%}}
-```
-
-Press `Space` to play!
-
-{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
 
 ---
 
-A fragment can accept two optional parameters:
 
-- `class`: use a custom style (requires definition in custom CSS)
-- `weight`: sets the order in which a fragment appears
-
----
-
-## Speaker Notes
-
-Add speaker notes to your presentation
-
-```markdown
-{{%/* speaker_note */%}}
-
-- Only the speaker can read these notes
-- Press `S` key to view
-  {{%/* /speaker_note */%}}
-```
-
-Press the `S` key to view the speaker notes!
-
-{{< speaker_note >}}
-
-- Only the speaker can read these notes
-- Press `S` key to view
-  {{< /speaker_note >}}
-
----
-
-## Themes
-
-- black: Black background, white text, blue links (default)
-- white: White background, black text, blue links
-- league: Gray background, white text, blue links
-- beige: Beige background, dark text, brown links
-- sky: Blue background, thin dark text, blue links
-
----
-
-- night: Black background, thick white text, orange links
-- serif: Cappuccino background, gray text, brown links
-- simple: White background, black text, blue links
-- solarized: Cream-colored background, dark green text, blue links
-
----
-
-{{< slide background-image="/media/boards.jpg" >}}
-
-## Custom Slide
-
-Customize the slide style and background
-
-```markdown
-{{</* slide background-image="/media/boards.jpg" */>}}
-{{</* slide background-color="#0000FF" */>}}
-{{</* slide class="my-style" */>}}
-```
-
----
-
-## Custom CSS Example
-
-Let's make headers navy colored.
-
-Create `assets/css/reveal_custom.css` with:
-
-```css
-.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-```
-
----
-
-# Questions?
-
-[Ask](https://discord.gg/z8wNYzb)
-
-[Documentation](https://docs.hugoblox.com/content/slides/)
