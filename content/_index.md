@@ -226,7 +226,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+
       # Contact (add or remove contact options as necessary)
       email: evgeniazhibitskaya@gmail.com 
       phone: +7 967 153 08 20
