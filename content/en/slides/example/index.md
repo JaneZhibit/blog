@@ -13,58 +13,6 @@ slides:
   highlight_style: dracula
 ---
 
-# Этапы реализации проекта
-
-[Hugo-themes](https://github.com/wowchemy/wowchemy-hugo-themes) |
-[Github](https://github.com/JaneZhibit)
-
----
-
-## Размещение на Github pages заготовки для персонального сайта.
-
-- Установить необходимое программное обеспечение.
-- Скачать шаблон темы сайта.
-- Разместить его на хостинге git.
-- Установить параметр для URLs сайта.
-- Разместить заготовку сайта на Github pages.
-- Добавить к сайту данные о себе.
-
----
-
-## Добавление данных.
-- Разместить фотографию владельца сайта.
-- Разместить краткое описание владельца сайта (Biography).
-- Добавить информацию об интересах (Interests).
-- Добавить информацию от образовании (Education).
-- Сделать пост по прошедшей неделе.
-- Добавить пост на тему по выбору:
-- Управление версиями. Git.
-- Непрерывная интеграция и непрерывное развертывание (CI/CD).
----
-
-## Добавление  к сайту достижений.
-
-- Список достижений.
-- Добавить информацию о навыках (Skills).
-- Добавить информацию об опыте (Experience).
-- Добавить информацию о достижениях (Accomplishments).
-- Сделать пост по прошедшей неделе.
-- Добавить пост на тему по выбору:
-- Легковесные языки разметки.
-- Языки разметки. LaTeX.
-- Язык разметки Markdown.
-
----
-
-## Добавление к сайту ссылок на научные и библиометрические ресурсы.
-
-
-- Зарегистрироваться на соответствующих ресурсах и разместить на них ссылки на сайте:
-* eLibrary : https://elibrary.ru/;
-* Google Scholar : https://scholar.google.com/;
-* ORCID : https://orcid.org/;
-* Mendeley : https://www.mendeley.com/;
-* ResearchGate : https://www.researchgate.net/;
 * Academia.edu : https://www.academia.edu/;
 * arXiv : https://arxiv.org/;
 * github : https://github.com/.
@@ -75,25 +23,85 @@ slides:
 * Работа с библиографией.
 ---
 
-##  Добавление к сайту всех остальных элементов.
+# Project implementation stages
 
-
-- Сделать записи для персональных проектов.
-- Сделать пост по прошедшей неделе.
-- Добавить пост на тему по выбору.
-- Языки научного программирования.
+[Hugo-themes](https://github.com/wowchemy/wowchemy-hugo-themes) |
+[Github](https://github.com/JaneZhibit)
 
 ---
 
-##  Размещение двуязычного сайта на Github.
+## Posting a template for a personal website on Github pages.
 
-- Сделать поддержку английского и русского языков.
-- Разместить элементы сайта на обоих языках.
-- Разместить контент на обоих языках.
-- Сделать пост по прошедшей неделе.
-- Добавить пост на тему по выбору (на двух языках).
-
+- Install the necessary software.
+- Download the website theme template.
+- Place it on git hosting.
+- Set parameter for site URLs.
+- Place the website template on Github pages.
+- Add information about yourself to the site.
 
 ---
 
+## Adding data.
+- Post a photo of the site owner.
+- Place a brief description of the site owner (Biography).
+- Add information about interests (Interests).
+- Add information from Education.
+- Make a post about the past week.
+- Add a post on a topic of your choice:
+- Version management. Git.
+- Continuous integration and continuous deployment (CI/CD).
+---
 
+## Adding achievements to the site.
+
+- List of achievements.
+- Add information about skills.
+- Add information about experience.
+- Add information about achievements (Accomplishments).
+- Make a post about the past week.
+- Add a post on a topic of your choice:
+- Lightweight markup languages.
+- Markup languages. LaTeX.
+- Markdown markup language.
+
+---
+
+## Adding links to scientific and bibliometric resources to the site.
+
+
+- Register on the relevant resources and place links to them on the site:
+* eLibrary: https://elibrary.ru/;
+* Google Scholar: https://scholar.google.com/;
+* ORCID: https://orcid.org/;
+* Mendeley: https://www.mendeley.com/;
+* ResearchGate: https://www.researchgate.net/;
+* Academia.edu: https://www.academia.edu/;
+* arXiv: https://arxiv.org/;
+* github: https://github.com/.
+- Make a post about the past week.
+- Add a post on a topic of your choice:
+* Report preparation.
+* Creation of presentations.
+* Working with bibliography.
+---
+
+## Adding all other elements to the site.
+
+
+- Make notes for personal projects.
+- Make a post about the past week.
+- Add a post on a topic of your choice.
+- Scientific programming languages.
+
+---
+
+## Hosting a bilingual website on Github.
+
+- Make support for English and Russian languages.
+- Place site elements in both languages.
+- Post content in both languages.
+- Make a post about the past week.
+- Add a post on a topic of your choice (in two languages).
+
+
+---

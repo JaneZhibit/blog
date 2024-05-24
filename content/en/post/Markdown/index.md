@@ -2,8 +2,8 @@
 # Documentation: https://docs.hugoblox.com/managing-content/
 
 title: "Markdown"
-subtitle: "Язык разметки"
-summary: "Знакомство с популярным языком разметки, его особенностями и преимуществами."
+subtitle: "Markup Language"
+summary: "Introduction to a popular markup language, its features and advantages."
 authors: []
 tags: []
 categories: []
@@ -27,48 +27,46 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-Markdown - один из самых известных языков разметки, относится к группе облегченных языков, то есть он просто в восприятии и освоении, содержит в себе минимальный набор функций. Также этот язык совместим с огромным количеством редакторов.
+Markdown is one of the most famous markup languages; it belongs to the group of lightweight languages, that is, it is easy to understand and master, and contains a minimal set of functions. This language is also compatible with a huge number of editors.
 
-Был разработан в 2004 году Джоном Грубером.
+It was developed in 2004 by John Gruber.
 
-Итак, перечислим основные преимущества данного языка:
-- Универсальность
-Возможность открыть в любом редакторе.
-- Простота
-Понятность и возможность быстрого освоения.
-- Легкая конвертируемость
-Легкий экспорт в множество форматов
+So, we list the main advantages of this language:
+- Versatility
+Ability to open in any editor.
+- Simplicity
+Easy to understand and easy to learn.
+- Easy convertibility
+Easy export to many formats
 
-Знакомясь с Markdown, обязательно надо посмотреть на его синтаксис, базовые правила работв с ним.
+When getting acquainted with Markdown, you should definitely look at its syntax and the basic rules for working with it.
 
-1. Для работы с заголовками понадобиться символ #. Уровень заголовков регулируется за счет количества #.
-Для создания параграфа достаточно просто оставить пустую строку.
+1. To work with headers, you need the # symbol. The level of headings is adjusted by the number of #.
+To create a paragraph, simply leave a blank line.
 
-2. Текст также может принимать разный вид.
-- Для курсивного текста можно использовать * или _ с обеих сторон: *пример*, _пример_
-- Для жирного текста можно использовать ** или __ с обеих сторон: **пример**, __пример__
-- Использование ~~ сделает текст зачеркнутым: ~~пример~~
+2. The text can also take different forms.
+- For italic text you can use * or _ on both sides: *example*, _example_
+- For bold text you can use ** or __ on both sides: **example**, __example__
+- Using ~~ will make the text strikethrough: ~~example~~
 
-3. Для работы со списками можно использовать или -, или цифры, для создания уровней - добавлять 4 пробела в начало
+3. To work with lists, you can use either - or numbers, to create levels - add 4 spaces to the beginning
 
-4. Ссылки можно оформить 2 способами:
- 1. [Название](Сама ссылка)
- 2. <Ссылка>
+4. Links can be created in 2 ways:
+  1. [Title](Link itself)
+  2. <Link>
  
-5. Картинки оформляются следующим образом:
-![название](путь к изображению){#сноска ширина}, сноска оформляется так: (рис. [-@сноска]).
+5. Pictures are formatted as follows:
+![title](path to image){#footnote width}, the footnote is formatted like this: (fig. [-@footnote]).
 
-6. Кроме того, чтобы оформить код можно использовать
-- `код` для строки кода
-- ```код``` для блока кода
-- ```название языка - для подсветки кода
+6. In addition, to format the code you can use
+- `code` for a line of code
+- ```code``` for a block of code
+- ```language name - for code highlighting
 
-7. Цитаты и их градация осуществялется за счет  символа > и его количества перед текстом
+7. Quotes and their gradation are carried out using the symbol > and its number before the text
 
-8. Также есть возможность оформлять таблицы( столбцы отделяютя | , шапка - строкой ----), чекбоксы [x] / []
+8. It is also possible to design tables (columns separated by |, header by line ----), checkboxes [x] / []
 
-Важно отметить, что здесь описаны не все возможности языка, а также  не все редакторы поддерживают все эти возможности, что необходимо учитывать при работе с ним.
+It is important to note that not all features of the language are described here, and not all editors support all these features, which must be taken into account when working with it.
 
-Итак, в данной статье было произведено знакомство с облегченным языком разметки Markdown, были описаны его преимущества и основной синтаксис.
-
-
+So, in this article, we learned a little about the lightweight markdown language Markdown, its advantages and basic syntax.

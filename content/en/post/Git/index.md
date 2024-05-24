@@ -2,8 +2,8 @@
 # Documentation: https://docs.hugoblox.com/managing-content/
 
 title: "Git"
-subtitle: "Управление версиями"
-summary: "Знакомство с полезной для командной работы системой, позволяющей легко следить за всеми измениями и сохранять различные версии проектов"
+subtitle: "Version Control"
+summary: "Learning about a  useful for team work system that makes it easy to keep track of all changes and save different versions of projects"
 authors: [Жибицкая Евгения]
 tags: []
 categories: []
@@ -28,30 +28,28 @@ image:
 projects: []
 ---
 
+There are many version control systems, they all have their own characteristics, but in this article we will look at Git.
 
-Систем контроля версий существует много, они все имеют свои особенности, но в этой статье мы рассмотрим именно Git.
+This system appeared in 2005, author - Linus Torvalds.
 
-Эта система появилась в 2005 году, автор - Линус Торвальдс.
+Git is a free version control system that tracks all changes made to files and stores them all in history. This is a distributed system, so changes are located both in the shared storage and on local devices.
 
-Git - бесплатная система контроля версий, отслеживающая все изменения, вносимые в файлы и сохраняющая их все в историю. Это распределнная система, поэтому изменения находятся и в общем хранилише, и на локальных устройствах.
+This system appeared in 2005, author - Linus Torvalds.
 
-Эта система появилась в 2005 году, автор - Линус Торвальдс.
+With its help, it is much more convenient for several people to work on one project, since it is easy to control all changes.
 
-С его помощью намного удобнее работать над одним проектом нескольким людям, так как легко контролировать все измения.
+So, let's write down the main advantages of this system
+1. Collaboration
+2. Track changes
+3. Backup
+4. Good compatibility with other development tools
+5. Convenient access to code
+6. Convenient work with branches
+7. Security
 
-Итак, запишем основные плюсы данной системы
-1. Совместная работа
-2. Отслеживание изменений
-3. Резервное копирование
-4. Хорошая совместимость с другими инструментами разработки
-5. Удобный доступ к коду
-6. Удобная работка с ветками
-7. Безопасность
+To work with git, you need to know the basic commands and install it. After that, you usually need to go through basic authentication and continue working.
 
-Для работы с git необходимо знать базовые команды и установить его. После обычно надо пройти базовую аутентфикацию и уже продолжать работу.
+Also, when talking about git, it's worth mentioning github. 
+This is a specially developed web service designed for hosting repositories (projects). With it you can have access to all projects no matter where you are.
 
-Кроме того, говоря о git, стоит упомянуть и github. 
-Это специально разработанный web-сервис, предназначенный для размещения репозиториев(проектов). С его помощью можно иметь доступ ко всем проектам независимо от того, где ты находишься.
-
-Это была базовая информация о распреденной системе контроля версий Git, где мы узнали что это такое, зачем она нужна, основные ее преимущества и не только.
-
+This was basic information about the distributed version control system Git, where we learned what it is, why it is needed, its main advantages and more.

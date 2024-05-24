@@ -27,101 +27,101 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
- Сетевые топологии -  это размещение компьютеров и других устройств в сетях связи
+Network topologies are the placement of computers and other devices in communication networks
 
- С помощью топологии можно определить, как строится сеть, как взаимодействуют устройства и передаются данные. Правильно выбранная и построенная топология позволяет эффективно организовать работу сети и повысить ее надежность.
+  Using topology, you can determine how a network is built, how devices interact and data is transferred. A correctly selected and constructed topology allows you to effectively organize the operation of the network and increase its reliability.
 
- Тополгию также разделяют на физическую(расположение компьютеров в пространстве) и логическую(то, как между собой передаются данные)
-- К физичеческой оранизации, например, относят сети,организованные в форме звезды, кольца, шины или  древовидной структуры.
-- К логической - формы клиента-сервера или пиринговые сети, где все устройства имеют равные возможности общения.
+  Topology is also divided into physical (the location of computers in space) and logical (how data is transferred between each other)
+- Physical organization, for example, includes networks organized in the form of a star, ring, bus or tree structure.
+- Logical - forms of client-server or peer-to-peer networks, where all devices have equal communication capabilities.
 
-Важно отметить, что  сетевая топология может быть комбинацией различных физических и логических топологий
-
-
-Основные понятия, относящиеся к данной теме
-
-1. Узел (Node):
-
-Узел представляет собой конкретное устройство или компьютер, подключенное к сети. Это может быть как сервер, так и клиентский компьютер, принтер или маршрутизатор.
-   1. ветвь сети - путь, соединяющий два смежных узла;
-   2. оконечный узел - узел, расположенный в конце только одной ветви;
-   3. промежуточный узел - узел, расположенный на концах более чем одной ветви;
-   4. смежные узлы - узлы, соединенные, по крайней мере, одним путём, не содержащим никаких других узлов.
-
-2. Соединение (Link):
-
-Соединение представляет собой физическое соединение между узлами в сети. Это может быть проводное или беспроводное соединение.
-
-3. Сетевое устройство (Network Device):
-
-Сетевое устройство — это оборудование, которое обеспечивает связь и передачу данных между узлами в сети. Примеры таких устройств: коммутатор (switch), маршрутизатор (router), мост (bridge), хаб (hub) и другие.
-
-4. Топология (Topology):
-
-Топология определяет физическую структуру и связи между узлами в сети. Существуют разные виды топологий, такие как звезда, кольцо, шина, дерево и смешанная топология.
-
-5. Передача данных:
-
-Передача данных — это процесс обмена информацией между узлами в сети. Она может осуществляться по различным протоколам, таким как TCP/IP, Ethernet и другим.
-
-6. Сетевые адреса (IP-адреса):
-
-Сетевые адреса используются для идентификации узлов в сети. Они позволяют адресовать и направлять данные между узлами. В Интернете распространены IP-адреса версии 4 (IPv4) и IP-адреса версии 6 (IPv6).
-Источник: https://uchet-jkh.ru/i/setevaya-topologiya-opredelenie-i-struktura
+It is important to note that a network topology can be a combination of different physical and logical topologies
 
 
-Виды сетевых топологий:
+Basic concepts related to this topic
 
-1. Общая Шина
--  В этом случае подключение и обмен данными производится через общий канал связи, называемый общей шиной(рис. [-@fig:001]).
+1. Node:
 
-![Шина](image/1.png){#fig:001 width=70%}
+A node is a specific device or computer connected to a network. This can be either a server or a client computer, printer or router.
+    1. network branch - a path connecting two adjacent nodes;
+    2. terminal node - a node located at the end of only one branch;
+    3. intermediate node - a node located at the ends of more than one branch;
+    4. adjacent nodes - nodes connected by at least one path that does not contain any other nodes.
+
+2. Connection (Link):
+
+A connection is a physical connection between nodes in a network. This can be a wired or wireless connection.
+
+3. Network Device:
+
+A network device is equipment that enables communication and data transfer between nodes on a network. Examples of such devices: switch, router, bridge, hub and others.
+
+4. Topology:
+
+Topology defines the physical structure and connections between nodes in a network. There are different types of topologies such as star, ring, bus, tree and mixed topology.
+
+5. Data transfer:
+
+Data transmission is the process of exchanging information between nodes in a network. It can be carried out using various protocols, such as TCP/IP, Ethernet and others.
+
+6. Network addresses (IP addresses):
+
+Network addresses are used to identify nodes on a network. They allow you to address and route data between nodes. IP version 4 (IPv4) and IP version 6 (IPv6) addresses are common on the Internet.
+Source: https://uchet-jkh.ru/i/setevaya-topologiya-opredelenie-i-struktura
 
 
+Types of network topologies:
 
- Общая шина является очень распространенной топологией для локальных сетей. Передаваемая информация может распространяться в обе стороны. Применение общей шины снижает стоимость проводки и унифицирует подключение различных модулей. 
+1. General Bus
+- In this case, the connection and data exchange is carried out through a common communication channel, called a common bus (Fig. [-@fig:001]).
 
- Основными преимуществами такой схемы являются дешевизна и простота разводки кабеля по помещениям. 
-
- Самый серьезный недостаток общей шины заключается в ее низкой надежности: любой дефект кабеля или какого-нибудь из многочисленных разъемов полностью парализует всю сеть. Другим недостатком общей шины является ее невысокая производительность, так как при таком способе подключения в каждый момент времени только один компьютер может передавать данные в сеть. Поэтому пропускная способность канала связи всегда делится здесь между всеми узлами сети.
-
-2. Звезда
-- В этом случае каждый компьютер подключается отдельным кабелем к общему устройству, называемому концентратором, который находится в центре сети(рис. [-@fig:002]).
-
-![Звезда](image/2.png){#fig:002 width=70%}
+![Tire](image/1.png){#fig:001 width=70%}
 
 
 
- В функции концентратора входит направление передаваемой компьютером информации одному или всем остальным компьютерам сети. 
+  The public bus is a very common topology for local area networks. The transmitted information can be distributed in both directions. The use of a common bus reduces wiring costs and unifies the connection of various modules. 
 
- Главное преимущество этой топологии перед общей шиной - существенно большая надежность. Любые неприятности с кабелем касаются лишь того компьютера, к которому этот кабель присоединен, и только неисправность концентратора может вывести из строя всю сеть. Кроме того, концентратор может играть роль интеллектуального фильтра информации, поступающей от узлов в сеть, и при необходимости блокировать запрещенные администратором передачи.
+  The main advantages of this scheme are the low cost and ease of cable distribution throughout the premises. 
 
- К недостаткам топологии типа звезда относится более высокая стоимость сетевого оборудования из-за необходимости приобретения концентратора. Кроме того, возможности по наращиванию количества узлов в сети ограничиваются количеством портов концентратора. В настоящее время иерархическая звезда является самым распространенным типом топологии связей как в локальных, так и глобальных сетях.
+  The most serious disadvantage of the common bus is its low reliability: any defect in the cable or any of the numerous connectors completely paralyzes the entire network. Another disadvantage of the shared bus is its low performance, since with this connection method only one computer at a time can transmit data to the network. Therefore, the communication channel bandwidth is always divided here between all network nodes.
 
-3. Кольцо
-- В сетях с кольцевой топологией данные в сети передаются последовательно от одной станции к другой по кольцу, как правило, в одном направлении(рис. [-@fig:003]).
+2. Star
+- In this case, each computer is connected by a separate cable to a common device called a hub, which is located in the center of the network (Fig. [-@fig:002]).
 
-![Кольцо](image/3.png){#fig:003 width=70%}
-
-
-
- Если компьютер распознает данные как предназначенные ему, то он копирует их себе во внутренний буфер. В сети с кольцевой топологией необходимо принимать специальные меры, чтобы в случае выхода из строя или отключения какой-либо станции не прервался канал связи между остальными станциями. Преимущество данной топологии - простота управления, недостаток - возможность отказа всей сети при сбое в канале между двумя узлами.
-
-4. Ячеистая топология(или же частичная сетка, где каждый узел соединен с каждым)
-- Для ячеистой топологии характерна схема соединения компьютеров, при которой физические линии связи установлены со всеми рядом стоящими компьютерами(рис. [-@fig:004]).
-
-![Ячеистая топология](image/4.jpeg){#fig:004 width=70%}
+![Star](image/2.png){#fig:002 width=70%}
 
 
- В сети с ячеистой топологией непосредственно связываются только те компьютеры, между которыми происходит интенсивный обмен данными, а для обмена данными между компьютерами, не соединенными прямыми связями, используются транзитные передачи через промежуточные узлы. Ячеистая топология допускает соединение большого количества компьютеров и характерна, как правило, для глобальных сетей. 
+
+  The function of a hub is to direct information transmitted by a computer to one or all other computers on the network. 
+
+  The main advantage of this topology over a common bus is significantly greater reliability. Any problems with the cable affect only the computer to which this cable is connected, and only a malfunction of the hub can bring down the entire network. In addition, the hub can play the role of an intelligent filter of information coming from nodes on the network and, if necessary, block transmissions prohibited by the administrator.
+
+  The disadvantages of a star topology include the higher cost of network equipment due to the need to purchase a hub. In addition, the ability to increase the number of nodes in the network is limited by the number of hub ports. Currently, a hierarchical star is the most common type of connection topology in both local and global networks.
+
+3. Ring
+- In networks with a ring topology, data in the network is transmitted sequentially from one station to another along the ring, usually in one direction (Fig. [-@fig:003]).
+
+![Ring](image/3.png){#fig:003 width=70%}
+
+
+
+  If the computer recognizes the data as intended for it, then it copies it to its internal buffer. In a network with a ring topology, it is necessary to take special measures so that in the event of an outage Troubleshooting or shutdown of any station did not interrupt the communication channel between other stations. The advantage of this topology is ease of management, the disadvantage is the possibility of failure of the entire network if there is a failure in the channel between two nodes.
+
+4. Mesh topology (or partial mesh, where each node is connected to each other)
+- The mesh topology is characterized by a computer connection scheme in which physical communication lines are established with all adjacent computers (Fig. [-@fig:004]).
+
+![Mesh topology](image/4.jpeg){#fig:004 width=70%}
+
+
+  In a network with a mesh topology, only those computers between which intensive data exchange occurs are directly connected, and for data exchange between computers that are not directly connected, transit transmissions through intermediate nodes are used. The mesh topology allows the connection of a large number of computers and is typically characteristic of global networks. 
  
- Достоинства данной топологии в ее устойчивости к отказам и перегрузкам, т.к. имеется несколько способов обойти отдельные узлы.
+  The advantages of this topology are its resistance to failures and overloads, because There are several ways to bypass individual nodes.
 
-5. Смешанная топология
--  В то время как небольшие сети, как правило, имеют типовую топологию, для крупных сетей характерно наличие произвольных связей между компьютерами. В таких сетях можно произвольно выделить отдельные подсети, имеющие типовую топологию, поэтому их называют сетями со смешанной топологией(рис. [-@fig:004]).
+5. Mixed topology
+- While small networks, as a rule, have a standard topology, large networks are characterized by the presence of arbitrary connections between computers. In such networks, individual subnetworks with a typical topology can be arbitrarily distinguished, which is why they are called networks with mixed topology (Fig. [-@fig:004]).
 
-![Смешанная топология](image/5.gif){#fig:005 width=70%}
+![Mixed topology](image/5.gif){#fig:005 width=70%}
 
-Кроме того, существует и несколько других топологий сети, например - дерево.
-Такой тип топологии чаще всего используют при монтаже локальных сетей с небольшим количеством приборов, в основном при создании корпоративных коммутаторов. Совмещает довольно низкую стоимость и очень хорошее быстродействие. Особенно при комбинировании различных линий передач — сочетании медных и волоконных кабельных систем, и применении управляемых коммутаторов.
+In addition, there are several other network topologies, for example, a tree.
+This type of topology is most often used when installing local networks with a small number of devices, mainly when creating corporate switches. Combines fairly low cost and very good performance. Especially when combining different transmission lines - a combination of copper and fiber cabling systems, and the use of managed switches.
 

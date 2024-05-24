@@ -1,9 +1,10 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Языки программирования"
-subtitle: "Научные языки"
-summary: "В посте рассматривается какие языки программирования являются самыми популярными в использовании учеными для своих исследований."
+title: "Programming languages"
+subtitle: "Scientific languages"
+summary: "The post examines which programming languages are the most popular ones used by scientists for their research."
+
 authors: []
 tags: []
 categories: []
@@ -28,22 +29,22 @@ image:
 projects: []
 ---
 
-К настоящему времени появилось огромное количество различных языков программирования. Некотоые из них родственны друг другу, некоторые имеют принципиальные отличия, но  у всех у них есть свои недостатки, и что самое главное, преимущества.
+By now, a huge number of different programming languages have appeared. Some of them are related to each other, some have fundamental differences, but they all have their own disadvantages, and most importantly, advantages.
 
-Все, конечно же, знают о языках Python, C#, C++, Java и JavaScript. Это одни из самых часто узнаваемых языков, которыми сейчас владеют многие. 
+Everyone, of course, knows about the languages Python, C#, C++, Java and JavaScript. These are some of the most commonly recognized languages that many people now speak. 
 
-Кажется, что именно их должны использовать ученые в своих исследованиях, но оказывается это не совсем так. 
+It seems that they are the ones that scientists should use in their research, but it turns out that this is not entirely true. 
 
-Как правило, упомянутые языки пригождаются в мобильной разработке, в анализе даннных, работе с браузером и других коммерческих разработках, а вот ученым часто нужно что-то другое.
+As a rule, the mentioned languages are useful in mobile development, data analysis, working with the browser and other commercial developments, but scientists often need something else.
 
-1. Конечно, Python  значительно облегчает жизнь, ведь к нему не только  уже написано огромное количество библиотек, но и его синтаксис также достаточно прост и понятен. Он помогает физкам, химикам,  математикам, биологам,и  экономистам в решении самых разных задач.
+1. Of course, Python makes life much easier, because not only has a huge number of libraries already been written for it, but its syntax is also quite simple and understandable. It helps physicists, chemists, mathematicians, biologists, and economists in solving a variety of problems.
 
-2. Fortran - первый высокоуровневый язык, который используют люди разных профессий. Он хрошо отлажен для математических вычислений и решения уравнений, актуален во многом для экономики и биологии.
+2. Fortran is the first high-level language used by people of different professions. It is well-debugged for mathematical calculations and solving equations, and is relevant in many respects to economics and biology.
 
-3. Julia берет лучшее из таких языков, как Python, Ruby, Lisp и R, сочетает это со скоростью языка C и включает привычную математическую нотацию, как в Matlab. 
-Это  достаточно хороший для общего программирования язык и в то же время удивительный для конкретных дисциплин информатики, таких как машинное обучение, добыча данных, распределенные и параллельные вычисления. Одно из главных преимуществ Julia – скорость, сопоставимая с такими языками, как C, Rust, Lua и Go. Это объясняется тем, что он компилируется по принципу Just-In-Time (JIT).
+3. Julia takes the best of languages like Python, Ruby, Lisp and R, combines it with the speed of C, and includes familiar math notation like Matlab. 
+It is a good enough language for general programming and at the same time amazing for specific computer science disciplines such as machine learning, data mining, distributed and parallel computing. One of the main advantages of Julia is its speed, comparable to languages such as C, Rust, Lua and Go. This is because it is compiled using the Just-In-Time (JIT) principle.
 
-4. MATLAB – это запатентованный язык программирования, используемый миллионами инженеров и ученых для математических и статистических вычислений.Ученые, занимающиеся изучением данных, в основном используют этот язык для анализа данных и машинного обучения. Самое приятное – это то, что у вас есть все в одном рабочем пространстве. Он используется в основном в академических кругах, но все же это отличный выбор для создания глубокого фундамента концепций науки о данных. Единственным недостатком MATLAB является то, что это платное программное обеспечение, поэтому вы будете использовать этот язык в основном, если вы учитесь в университете или уже используете его на своей работе. Ознакомьтесь с официальным списком ресурсов MathWorks, чтобы начать обучение уже сегодня.
+4. MATLAB is a proprietary programming language used by millions of engineers and scientists for mathematical and statistical computing. Data scientists primarily use this language for data analysis and machine learning. The best part is that you have everything in one workspace. It is used primarily in academic circles, but is still a great choice for building a deep foundation of data science concepts. The only downside of MATLAB is that it is a paid software, so you will use this language mainly if you are studying at university or already using it at your job. Check out the official list of MathWorks resources to get started today.
 
 
-Как можно заметить, множество языков имеет свои особенности и важно понимать конкретно стоящую задачу, чтобы выбрать нужный язык и выполнить работу максимально эффективно.
+As you can see, many languages have their own characteristics and it is important to understand the specific task at hand in order to choose the right language and complete the job as efficiently as possible.
