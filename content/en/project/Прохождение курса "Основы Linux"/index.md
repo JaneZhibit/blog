@@ -6,6 +6,7 @@ date: '2024-11-11T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://rutube.ru/plst/669682
+name: video 
 
 image: 
   image: featured.jpeg
