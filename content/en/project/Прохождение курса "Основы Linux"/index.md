@@ -5,8 +5,7 @@ summary: Прохождение курса на платформе Stepik
 date: '2024-11-11T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://rutube.ru/plst/669682
-name: video 
+external_link: ''
 
 image: 
   image: featured.jpeg
@@ -825,7 +824,7 @@ tac - usr/bin
 
 ![152](image/152.jpeg) 152  
 
-
+[Ссылка на плейлист со скринкастом прохождения курса](https://rutube.ru/plst/669682)
 
 
 # Выводы
