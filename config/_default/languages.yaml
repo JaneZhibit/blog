@@ -11,8 +11,8 @@ en:
 
 # Uncomment the lines below to configure your website in a second language.
 ru:
-  languageCode: "ru-ru"
-  contentDir: "content/ru"
+  languageCode: ru-ru
+  contentDir: content/ru
   menu:
     main:
       - name: Обо мне
