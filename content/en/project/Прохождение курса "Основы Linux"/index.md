@@ -7,9 +7,11 @@ date: '2024-11-11T00:00:00Z'
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
-image:
+image: 
+  image: featured.jpeg
   caption: Site
   focal_point: Smart
+  
 
 links:
   - icon: github
@@ -26,7 +28,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 ---
 
 # Цель работы
@@ -40,17 +42,17 @@ slides: example
 
 Чтобы узнать справку по команде, ознакомиться с принципами ее работы надо ввести man и название команды(рис. [-@fig:001]).
 
-![1](image/1.jpeg){#fig:001 width=70%}
+![1](image/1.jpeg)
 
 Для получения справки по командк ls надо ввести man ls
 (рис. [-@fig:002]).
 
-![2](image/2.jpeg){#fig:002 width=70%}
+![2](image/2.jpeg)
 
 
 Введя pwd, пользователь получает путь до своего местоположения в каталогах(рис. [-@fig:003]).
 
-![3](image/3.jpeg){#fig:003 width=70%}
+![3](image/3.jpeg)
 
 
 Символ / нужен для обозначения начала пути файловой системы(рис. [-@fig:004]).
