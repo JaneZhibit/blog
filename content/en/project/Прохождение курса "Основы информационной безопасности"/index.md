@@ -3,14 +3,13 @@ title: Курс "Основы кибербезопасности"
 summary: Прохождение курса на платформе Stepik
   - Deep Learning
 date: '2025-05-11T00:00:00Z'
+
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
-image: 
-  image: featured.jpeg
-  caption: Course
+image:
+  caption: Site
   focal_point: Smart
-  
 
 links:
   - icon: github
@@ -27,7 +26,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ""
+slides: example
 ---
 
 # Цель работы
@@ -314,6 +313,17 @@ Cквозное шифрование обеспечивает целостнос
 (рис. [-@fig:54]).
 
 ![Завершение курса](image/54.jpg){#fig:54 width=70%}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
